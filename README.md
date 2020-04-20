@@ -4,7 +4,7 @@
 
 So, **what's a recursion?**
 
-`Recursion is the process in which a function calls itself directly or indirectly.` (GeekForGeeks)
+`Recursion is the process in which a function calls itself directly or indirectly.` [Geek for Geeks](https://www.geeksforgeeks.org/recursion/)
 
 When you call the same function inside itself, you have a recursion. Let me show you an example:
 

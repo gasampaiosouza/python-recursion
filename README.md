@@ -76,7 +76,7 @@ It's happening because the function is going to storage `all` the values that it
 
 `Based on fibonacci sequence`, when we call it with 5 for example, it stores: `1, 1, 2, 3 and 5`. <br>
 
-If we do this with a large number like `fibonacci(250)`, it's going to store `1, 1, 2, 3, 5, 8, 13...` until it reaches the 250th position, because `fibonacci(3)` is the result of `fibonacci(1) + fibonacci(2)`, so computer really thinks he has to store it, and it consumes `a lot` of memory. **That's why terminal has that time delay**.
+If we do this with a large number like `fibonacci(250)`, it's going to store `1, 1, 2, 3, 5, 8, 13...` until it reaches the 250th position, because `fibonacci(4)` is the result of `fibonacci(2) + fibonacci(3)`, `fibonacci(3)` is the result of `fibonacci(2) + fibonacci(3)`, and so on. Computer really thinks he has to store it, and it consumes `a lot` of memory. **That's why terminal has that time delay**.
 
 ### How can we fix this with Python?
 

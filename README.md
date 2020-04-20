@@ -80,7 +80,7 @@ If we do this with a large number like `fibonacci(250)`, it's going to store `1,
 
 ### How can we fix this with Python?
 
-To solve this we have to cache the values, so the function doesn't have to do it for us. To help us we have a builtin Python tool that's called [functools](https://docs.python.org/3/library/functools.html), and it has a lot of things inside it, we're going to use only one called [lru_cache](https://docs.python.org/3/library/functools.html#functools.lru_cache). It basically caches all the function results for us.
+To solve this we have to cache the values, so the function doesn't have to do it for us. To help us we have a builtin Python tool that's called [functools](https://docs.python.org/3/library/functools.html), and it has a lot of things inside of it, we're going to use only one called [lru_cache](https://docs.python.org/3/library/functools.html#functools.lru_cache). It basically caches all the function results for us.
 
 #### How to use
 
@@ -111,5 +111,5 @@ print( fibonacci(250) ) # 7896325826131730.... with 0 delay.
 That's it. I hope you learned a little bit from this. If you don't, you can see this other links that i think it's going to help you:
 
 * [Geek for Geeks](https://www.geeksforgeeks.org/recursion/)
-* [Programiz](https://www.programiz.com/python-programming/recursion) `It also has a lot of courses about python, worth to see!`
+* [Programiz](https://www.programiz.com/python-programming/recursion) `It also has a lot of courses about python, worth seeing!`
 * [Joe James](https://www.youtube.com/watch?v=wMNrSM5RFMc) `YouTube`

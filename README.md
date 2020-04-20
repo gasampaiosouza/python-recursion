@@ -32,6 +32,8 @@ def factorial(n): # 3
     return factorial(n - 1) * n
 ```
 
+> Obs: You **have** to insert some value, otherwise it's going to loop through it infinitely.
+
 It's going to return: ```factorial(2)```, because of `(3 - 1)`. The memory is going to store: `6`, because `(3 - 1) * 3[n]` is equal to **6**.
 
 

@@ -32,7 +32,7 @@ def factorial(n): # 3
     return factorial(n - 1) * n
 ```
 
-It's going to return: ```factorial(2)```, because of `(3 - 1)`. The memory is going to store: `6`, because `(3 - 1) * 3[n]` is equal to 6.
+It's going to return: ```factorial(2)```, because of `(3 - 1)`. The memory is going to store: `6`, because `(3 - 1) * 3[n]` is equal to **6**.
 
 
 Then, the function runs again with `2` as parameter, and it's going to return `factorial(1)`, that returns `1`. <br>

@@ -13,7 +13,7 @@ When you call the same function inside itself, you have a recursion. Let me show
 
 def factorial(n):
     if n == 1:
-        return 1 # ends function (otherwise it'll be a infinite loop)
+        return 1 # ends function (otherwise it'll be an infinite loop)
     else:
         return factorial(n - 1) * n # let's talk about it
 ```

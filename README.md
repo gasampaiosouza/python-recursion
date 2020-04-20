@@ -91,7 +91,7 @@ from functools import lru_cache
 ```
 
 And then you place it above your function:
-> Note: Not even EVERY recursive function is going to have this delay, such as factorial.
+> Note: Not EVERY recursive function is going to have this delay, such as factorial.
 
 ```python
 from functools import lru_cache

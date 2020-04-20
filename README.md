@@ -15,7 +15,7 @@ def factorial(n):
     if n == 1:
         return 1 # ends function (otherwise it'll be an infinite loop)
     else:
-        return factorial(n - 1) * n # let's talk about it
+        return factorial(n - 1) * n # how does it work?
 ```
 
 > If you don't know what's factorial, [Here's some help](https://en.wikipedia.org/wiki/Factorial)
